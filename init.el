@@ -14,6 +14,7 @@ ophints           ; highlight the region an operation acts on
 vc-gutter         ; vcs diff in the fringe
 vi-tilde-fringe   ; fringe tildes to mark beyond EOB
 workspaces        ; tab emulation, persistence & separate workspaces
+window-select     ; visually switch windows
 
 :editor
 
@@ -37,6 +38,11 @@ grammar           ; tasing grammar mistake every you make
 (eval +overlay)     ; run code, run (also, repls)
 lookup              ; navigate your code and its documentation
 magit             ; a git porcelain for Emacs
+biblio            ; Writes a PhD for you (citation needed)
+pdf               ; pdf enhancements
+rgb               ; creating color strings
+editorconfig      ; let someone else argue about tabs vs spaces
+ein               ; tame Jupyter notebooks with emacs
 
 :os
 (:if IS-MAC macos)  ; improve compatibility with macOS
@@ -48,11 +54,15 @@ fortran           ; in FORTRAN, GOD is REAL (unless declared INTEGER)
 markdown          ; writing docs for people to ignore
 org               ; organize your plain life in plain text
 sh                ; she sells {ba,z,fi}sh shells on the C xor
+python            ; beautiful is better than ugly
 
 :email
 (mu4e +org +gmail)
 
 :app
+calendar
+emms
+everywhere        ; *leave* Emacs!? You must be joking
 
 :config
 (default +bindings +smartparens))
