@@ -1,5 +1,5 @@
 #+TITLE: Doom Config
-#+OPTIONS: \n:t
+#+OPTIONS: \n:t line-break:t
 #+DATE:    March 18, 2022
 #+SINCE:   <replace with next tagged release version>
 #+STARTUP: inlineimages nofold
